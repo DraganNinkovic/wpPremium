@@ -9,7 +9,7 @@ Part 2
   - adding functions.php, files in inc folder
   - adding Theme options
   - dashboard list
-  
+
       1.   2 - Dashboard
       2.   4 - Separator
       3.   5 - Posts
@@ -47,3 +47,12 @@ Part 8
 Part 9
   - Removing profile picture
   - Add custom header and custom background
+
+Part 10, 11, 12
+  - Contact Form
+
+Part 13
+  - Custom CSS
+
+Part 14
+  - Started FrontEnd
