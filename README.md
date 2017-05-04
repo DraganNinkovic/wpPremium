@@ -56,3 +56,12 @@ Part 13
 
 Part 14
   - Started FrontEnd
+
+Part 15
+  - Header Logo
+
+Part 16
+  - Sass
+
+Part 17
+  - Nav Menu

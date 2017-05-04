@@ -6,6 +6,10 @@
   $lastName = esc_attr(get_option('last_name'));
   $fullName = $firstName . ' ' . $lastName;
   $user_description = esc_attr(get_option('user_description'));
+
+  $twitter = esc_attr(get_option('twitter_handler'));
+  $facebook = esc_attr(get_option('facebook_handler'));
+  $instagram = esc_attr(get_option('instagram_handler'));
 ?>
 <div class="sunset-sidebar-preview">
   <div class="sunset-sidebar">
@@ -15,7 +19,15 @@
     <h1 class="sunset-username"><?php echo $fullName; ?></h1>
     <h2 class="sunset-description"><?php echo $user_description; ?></h2>
     <div class="icon-wrapper">
-
+      <?php if ($twitter): ?>
+        <span class="sunset-icon dashicons-before dashicons-twitter"></span>
+      <?php endif; ?>
+      <?php if ($facebook): ?>
+        <span class="sunset-icon dashicons-before dashicons-facebook-alt"></span>
+      <?php endif; ?>
+      <?php if ($instagram): ?>
+        <span class="sunset-icon dashicons-before dashicons-share"></span>
+      <?php endif; ?>
     </div>
   </div>
 </div>
