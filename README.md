@@ -65,3 +65,19 @@ Part 16
 
 Part 17
   - Nav Menu
+
+Part 18
+
+Part 19
+  - Date and Categories
+
+Part 20
+  - Comments and tags
+
+Part 21
+
+Part 22
+  - Image Post Type
+
+Part 23
+  - Audio Post Type
