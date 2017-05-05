@@ -110,9 +110,10 @@ function sunset_post_formats(){
   $options = get_option('post_formats');
   $formats = array(
                 'aside',
-                'galery',
+                'gallery',
                 'link',
                 'quote',
+                'image',
                 'status',
                 'video',
                 'audio',
