@@ -126,4 +126,19 @@ add_action( 'login_enqueue_scripts', 'my_login_logo' );
 //  }
 // }
 
+/*
+====================================
+      WordPress Flash Messages
+====================================
+ */
+// ## STORE TEXT
+// set_transient('error', 'text i want to store', 60*60*12);
+// 
+// ## RETRIEVE TEXT
+// echo get_transient('error');
+//
+// ## DELETE THE TEXT
+// delete_transient('error');
+
+
 ?>
